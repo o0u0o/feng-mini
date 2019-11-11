@@ -1,0 +1,15 @@
+{
+  "name": "feng",
+  "version": "0.1.0",
+  "description": "凤袖电商小程序",
+  "main": "app.js",
+  "dependencies": {
+    "lin-ui": "~0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuechuangui",
+  "license": "ISC"
+}

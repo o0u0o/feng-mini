@@ -1,0 +1,21 @@
+<view>
+    <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+    <!--  轮播start  -->
+    <swiper class="swiper"
+            indicator-dots
+            indicator-active-color="#157658"
+            autoplay
+            circular>
+        <block wx:for="{{bannerB.items}}">
+            <swiper-item>
+                <image class="swiper" src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <!--  轮播end  -->
+
+    <s-category-grid grid="{{grid}}"></s-category-grid>
+
+    <image class="activity" src="{{activityD.entrance_img}}"></image>
+
+</view>
