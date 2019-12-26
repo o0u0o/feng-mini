@@ -1,4 +1,4 @@
-<view>
+<view class="container">
     <image class="top-theme" src="{{themeA.entrance_img}}"></image>
     <!--  轮播start  -->
     <swiper class="swiper"
@@ -15,7 +15,21 @@
     <!--  轮播end  -->
 
     <s-category-grid grid="{{grid}}"></s-category-grid>
-
     <image class="activity" src="{{activityD.entrance_img}}"></image>
+
+    <view class="spu-scroll">
+        <s-spu-scroll
+                theme="{{themeE}}"
+                spu-list="{{themeESpu}}"
+                wx:if="{{themeE.online}}">
+
+        </s-spu-scroll>
+    </view>
+    <image src="{{themeF.entrance_img}}" class="quality"></image>
+
+    <s-hot-list src="{{bannerG}}"></s-hot-list>
+
+    <image src="{{themeH.entrance_img}}" class="fashion"></image>
+
 
 </view>
