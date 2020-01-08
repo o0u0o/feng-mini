@@ -55,7 +55,7 @@ Page({
 
     const bannerG = await Banner.getHomeLocationG()
 
-    const themeH = theme.getHomeLocationH()
+    const themeH = await theme.getHomeLocationH()
 
     this.setData({
       themeA,

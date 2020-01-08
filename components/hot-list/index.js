@@ -14,7 +14,7 @@ Component({
         return
       }
 
-      if (banner.items.left === 0){
+      if (banner.items.length === 0){
         return
       }
       const left = banner.items.find(i=>i.name==='left')
