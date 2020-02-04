@@ -1,6 +1,14 @@
 import {config} from "../config/config";
 import {promisic} from "./util";
 class Http {
+
+    /**
+     *
+     * @param url
+     * @param data 数据
+     * @param method 方法
+     * @returns {Promise<*>}
+     */
     static async request({
                              url,
                              data,
@@ -16,6 +24,8 @@ class Http {
         })
         return res.data
     }
+
+    //统一异常处理防范
 }
 
 //导出Http 工具

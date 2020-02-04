@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="新增热门推荐">
-      <change afterPath="$PROJECT_DIR$/wxss/feng.wxss" afterDir="false" />
+    <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment=":apple: 自定义点击动画">
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/Paging.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hot-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/hot-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/hot-list/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/hot-list/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hot-list/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/hot-list/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +24,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1Sy28Vpdam975zZmYNx5uL57Ju2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,7 +110,16 @@
       <workItem from="1577365744663" duration="4797000" />
       <workItem from="1577409312262" duration="300000" />
       <workItem from="1577431824344" duration="1125000" />
-      <workItem from="1578447661975" duration="1429000" />
+      <workItem from="1578447661975" duration="7269000" />
+      <workItem from="1578469459880" duration="2729000" />
+      <workItem from="1578485026246" duration="387000" />
+      <workItem from="1578535803304" duration="2960000" />
+      <workItem from="1578561049015" duration="2991000" />
+      <workItem from="1578619094102" duration="360000" />
+      <workItem from="1578634187067" duration="51000" />
+      <workItem from="1580051509701" duration="210000" />
+      <workItem from="1580102337462" duration="25000" />
+      <workItem from="1580801245794" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="新增热门推荐">
       <created>1577370479517</created>
@@ -114,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577370479517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":apple: 自定义点击动画">
+      <created>1578449256639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578449256639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,19 +157,29 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="新增热门推荐" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增热门推荐" />
+    <MESSAGE value=":apple: 自定义点击动画" />
+    <option name="LAST_COMMIT_MESSAGE" value=":apple: 自定义点击动画" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="42" key="CommitChangelistDialog2" timestamp="1578448760683">
+    <state x="331" y="42" key="CommitChangelistDialog2" timestamp="1578449796782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577370478859" />
     <state x="331" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1575125106338" />
-    <state x="331" y="42" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578448760683" />
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577370448406">
+    <state x="331" y="42" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449796782" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578449617139">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449617139" />
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578449345121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1577370448406" />
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449345120" />
+    <state x="485" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1578449592608">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="485" y="248" key="git4idea.merge.GitMergeDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449592608" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1577368271203">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

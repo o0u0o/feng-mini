@@ -14,8 +14,10 @@
     </swiper>
     <!--  轮播end  -->
 
+    <!-- 宫格组件--START   -->
     <s-category-grid grid="{{grid}}"></s-category-grid>
     <image class="activity" src="{{activityD.entrance_img}}"></image>
+    <!--  宫格组件--END  -->
 
     <view class="spu-scroll">
         <s-spu-scroll
@@ -27,6 +29,7 @@
     </view>
     <image src="{{themeF.entrance_img}}" class="quality"></image>
 
+    <!--  热门商品  -->
     <s-hot-list banner="{{bannerG}}"></s-hot-list>
 
     <image src="{{themeH.entrance_img}}" class="fashion"></image>
@@ -34,6 +37,7 @@
     <!--  瀑布流  -->
     <view class="spu-bottom">
         <image class="title-spu-bottom" src="/imgs/home.title@interest.png"></image>
+        <l-water-flow generic:l-water-flow-item="s-spu-preview"></l-water-flow>
     </view>
 
 </view>
