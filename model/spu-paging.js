@@ -1,5 +1,5 @@
 /** @作者 o0u0o ..*/
-import {Paging} from "../utils/Paging"
+import {Paging} from "../utils/paging"
 
 class SpuPaging{
     static async getLatestPaging(){

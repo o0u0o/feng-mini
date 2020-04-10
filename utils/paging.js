@@ -95,7 +95,7 @@ class Paging {
      * @returns {boolean}
      * @private
      */
-    _moreData(totalPage, pageNum){
+    static _moreData(totalPage, pageNum){
         return pageNum < totalPage - 1
     }
 

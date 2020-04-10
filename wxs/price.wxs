@@ -1,0 +1,42 @@
+/**
+ * @作者 岳川贵
+ * @创建时间 2020-4-17 下午15:54
+ */
+
+// 原价
+function mainPrice(price, discountPrice) {
+    if (!discountPrice) {
+        return {
+            price: price,
+            display: true
+        }
+    }
+    else{
+        return {
+            price: discountPrice,
+            display: true
+        }
+    }
+}
+
+// 折扣价
+function slashePrice(price, discountPrice) {
+    if (discountPrice){
+        return {
+            price: price,
+            display: true
+        }
+    }
+    else{
+        return {
+            price: null,
+            display: false
+        }
+    }
+}
+
+//导出
+module.exports = {
+    mainPrice:mainPrice,
+    slashePrice:slashePrice
+}

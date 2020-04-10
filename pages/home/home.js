@@ -4,7 +4,7 @@ import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
 import {Category} from "../../model/category";
 import {Activity} from "../../model/activity";
-import {Paging} from "../../utils/Paging";
+import {Paging} from "../../utils/paging";
 import {SpuPaging} from "../../model/spu-paging";
 
 Page({
@@ -33,13 +33,16 @@ Page({
     this.initBottomSpuList()
   },
 
+  /**
+   * 猜你喜欢（最新的商品）- 瀑布流
+   */
   async initBottomSpuList(){
-    const paging = SpuPaging.getLatestPaging()
+    const paging = await SpuPaging.getLatestPaging()
     const data = await paging.getMoreData()
     if(!data){
       return
     }
-    //瀑布流
+    //瀑布流 自动累加数据
     wx.lin.renderWaterFlow(data.items)
   },
 

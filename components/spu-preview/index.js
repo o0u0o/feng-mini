@@ -4,7 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    data: Object
+    data:Object
   },
 
   /**
@@ -12,9 +12,27 @@ Component({
    *
    */
   data: {
-
+    tags: Array
   },
 
+  /**
+   * 定义一个监听器
+   * 将标签（tags）分割为数组
+   */
+  observers:{
+    data: function (data) {
+      if (!data){
+        return
+      }
+      if (!data.tags){
+        return;
+      }
+      const tags = data.tags.split('$')
+      this.setData({
+          tags
+      })
+    }
+  },
   /**
    * 组件的方法列表
    */
