@@ -1,0 +1,10 @@
+<!-- 栅栏(SKU 规格名及规格值处理) -->
+<view class="container">
+    <view class="title">
+        <view class="row-container">
+            <block wx:for="{{fence.cells}}" wx:key="{{index}}">
+            </block>
+        </view>
+    </view>
+    <view class="hr"></view>
+</view>

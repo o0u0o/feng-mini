@@ -2,10 +2,11 @@
 import {Paging} from "../utils/paging"
 
 class SpuPaging{
+    /** 获取5条数据 */
     static async getLatestPaging(){
         return new Paging({
             url: `spu/latest`
-        }, 3)
+        }, 5)
 
     }
 }

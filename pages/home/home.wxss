@@ -5,12 +5,12 @@
     display: flex;
 }
 
-.swiper{
+.swiper {
     width: 100%;
     height: 360rpx;
 }
 
-.activity{
+.activity {
     margin-top: 20rpx;
     width: 100%;
     height: 310rpx;
@@ -18,7 +18,7 @@
     margin-bottom: 20rpx;
 }
 
-.quality{
+.quality {
     margin-top: 20rpx;
     margin-bottom: 20rpx;
     width: 100%;
@@ -26,21 +26,23 @@
     display: flex;
 }
 
-.fashion{
+.fashion {
     display: flex;
     width: 100%;
     height: 840rpx;
     margin-top: 20rpx;
 }
 
-.spu-bottom{
+.spu-bottom {
     margin-top: 20rpx;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30rpx;
+    background-color: #ffffff;
 }
 
-.title-spu-bottom{
+.title-spu-bottom {
     width: 690rpx;
     height: 70rpx;
     margin-bottom: 38rpx;

@@ -17,7 +17,9 @@ Page({
     themeE: null,
     bannerB: null,
     grid: [],
-    activityD: null
+    activityD: null,
+    paging: null,
+    loadingType: 'loading'
   },
 
   /**
@@ -38,13 +40,17 @@ Page({
    */
   async initBottomSpuList(){
     const paging = await SpuPaging.getLatestPaging()
+    this.data.spuPaging = paging
     const data = await paging.getMoreData()
     if(!data){
       return
     }
     //瀑布流 自动累加数据
     wx.lin.renderWaterFlow(data.items)
+
   },
+
+
 
   //初始化所有数据
   async initAllData() {
@@ -88,12 +94,23 @@ Page({
     })
   },
 
+
   onPullDownRefresh: function(){
 
   },
 
-  onReachBottom: function(){
-
+  //触底函数（瀑布流触底时加载更多数据）
+  onReachBottom: async function(){
+    const  data = await this.data.spuPaging.getMoreData()
+    if (!data){
+      return
+    }
+    wx.lin.renderWaterFlow(data.items)
+    if (!data.moreData){
+        this.setData({
+          loadingType: 'end'
+        })
+    }
   },
 
   onShareAppMessage: function(){

@@ -1,0 +1,15 @@
+<!--控制中心Realm 用于处理规格名和规格值-->
+<view class="container">
+    <view>
+        <image></image>
+    </view>
+
+    <!--  SKU规则栅栏  -->
+    <block wx:for="{{}}">
+        <s-fence></s-fence>
+    </block>
+    <!-- 数量选择器  -->
+    <view class="counter-container">
+
+    </view>
+</view>
