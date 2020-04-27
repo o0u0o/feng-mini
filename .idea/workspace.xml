@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/fence/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/fence/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/realm/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/spu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/spu-paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxs/price.wxs" beforeDir="false" afterPath="$PROJECT_DIR$/wxs/price.wxs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +128,10 @@
       <workItem from="1586739128454" duration="532000" />
       <workItem from="1586825756831" duration="585000" />
       <workItem from="1586872007173" duration="2502000" />
-      <workItem from="1587359369084" duration="2262000" />
+      <workItem from="1587359369084" duration="2583000" />
+      <workItem from="1587393516076" duration="847000" />
+      <workItem from="1587965275562" duration="1108000" />
+      <workItem from="1587994007500" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="新增热门推荐">
       <created>1577370479517</created>
@@ -168,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586529905774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":apple: SKU栅栏框架">
+      <created>1587368915459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587368915459</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,19 +193,19 @@
     <MESSAGE value=":apple: 自定义点击动画" />
     <MESSAGE value=":apple: 自定义spu-preview组件" />
     <MESSAGE value=":apple: 瀑布流处理" />
-    <option name="LAST_COMMIT_MESSAGE" value=":apple: 瀑布流处理" />
+    <MESSAGE value=":apple: SKU栅栏框架" />
+    <option name="LAST_COMMIT_MESSAGE" value=":apple: SKU栅栏框架" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586523643872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1586523643872" />
-    <state x="331" y="53" key="CommitChangelistDialog2" timestamp="1586529905058">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="331" y="42" key="CommitChangelistDialog2" timestamp="1587368914296">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580810285155" />
+    <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587368914295" />
     <state x="331" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1586529905058" />
-    <state x="331" y="42" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449796782" />
     <state x="768" y="176" key="EditFileWatcherDialog" timestamp="1586528307200">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
@@ -219,15 +219,6 @@
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580810299453" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1586529930148" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449617139" />
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578449345121">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449345120" />
-    <state x="485" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1578449592608">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="485" y="248" key="git4idea.merge.GitMergeDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1578449592608" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586346484648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

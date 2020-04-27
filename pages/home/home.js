@@ -1,11 +1,11 @@
 // pages/home/home.js
 //导入配置文件config.js
-import {Theme} from "../../model/theme";
-import {Banner} from "../../model/banner";
-import {Category} from "../../model/category";
-import {Activity} from "../../model/activity";
+import {Theme} from "../../models/theme";
+import {Banner} from "../../models/banner";
+import {Category} from "../../models/category";
+import {Activity} from "../../models/activity";
 import {Paging} from "../../utils/paging";
-import {SpuPaging} from "../../model/spu-paging";
+import {SpuPaging} from "../../models/spu-paging";
 
 Page({
 

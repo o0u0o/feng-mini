@@ -4,7 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    spu: Object
   },
 
   /**
@@ -15,9 +15,19 @@ Component({
   },
 
   /**
+   * 监听器 监听 spu
+   */
+  observers:{
+    'spu': function (spu) {
+
+    }
+  },
+
+  /**
    * 组件的方法列表
    */
   methods: {
+
 
   }
 })
