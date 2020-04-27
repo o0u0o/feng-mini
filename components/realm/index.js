@@ -19,7 +19,9 @@ Component({
    */
   observers:{
     'spu': function (spu) {
-
+      if (!spu){
+        return
+      }
     }
   },
 
