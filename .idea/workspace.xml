@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/models/matrix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +126,7 @@
       <workItem from="1588141335022" duration="3000" />
       <workItem from="1588310101376" duration="2201000" />
       <workItem from="1588345723608" duration="3000" />
-      <workItem from="1588850673655" duration="831000" />
+      <workItem from="1588850673655" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="新增热门推荐">
       <created>1577370479517</created>
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587997592830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":apple: 遍历SKU fence">
+      <created>1588851751028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588851751029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +210,8 @@
     <MESSAGE value=":apple: 自定义spu-preview组件" />
     <MESSAGE value=":apple: 瀑布流处理" />
     <MESSAGE value=":apple: SKU栅栏框架" />
-    <option name="LAST_COMMIT_MESSAGE" value=":apple: SKU栅栏框架" />
+    <MESSAGE value=":apple: 遍历SKU fence" />
+    <option name="LAST_COMMIT_MESSAGE" value=":apple: 遍历SKU fence" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588310141620">
@@ -217,11 +219,12 @@
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1586523643872" />
     <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588310141620" />
-    <state x="386" y="49" key="CommitChangelistDialog2" timestamp="1587997592699">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="386" y="71" key="CommitChangelistDialog2" timestamp="1588851750842">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587368914295" />
     <state x="331" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1586529905058" />
+    <state x="386" y="71" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1588851750842" />
     <state x="386" y="49" key="CommitChangelistDialog2/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587994209824" />
     <state x="386" y="49" key="CommitChangelistDialog2/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1587997592699" />
     <state x="768" y="176" key="EditFileWatcherDialog" timestamp="1586528307200">
@@ -233,11 +236,12 @@
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1588141323244" />
     <state x="158" y="32" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586530151706" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1586529930148">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="373" y="240" key="Vcs.Push.Dialog.v2" timestamp="1588851758884">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580810299453" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1586529930148" />
+    <state x="373" y="240" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1588851758884" />
     <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587997586189">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
