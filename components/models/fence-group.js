@@ -14,21 +14,21 @@ class FenceGroup {
         this.skuList = spu.sku_list
     }
 
-    //初始化Fences
-    initFences(){
-        const matrix = this._createMatrix(this.skuList);
-        const fences = []
-        let currentJ = -1;
-        matrix.forEach((element, i , j)=>{
-            //开启了数组的新列
-            if (currentJ !== j){
-                //开启一个新列，需要创建一个新的Fence
-                currentJ = j
-                fences[currentJ] = this._createFence(element)
-            }
-            fences[currentJ].pushValueTitle(element.value)
-        })
 
+
+    //使用自己实现的矩阵初始化Fences
+    initFences() {
+        const matrix = this._createMatrix(this.skuList)
+        console.log("skuList"+this.skuList)
+        const fences = []
+        const AT = matrix.transpose()
+        AT.forEach(r => {
+            const fence = new Fence(r)
+            //初始化fence
+            fence.init()
+            //将fence push 到 fences中
+            fences.push(fence)
+        })
         console.log(fences)
     }
 
@@ -39,16 +39,18 @@ class FenceGroup {
         return fence
     }
 
+    //创建矩阵
     _createMatrix(skuList){
         //使用二维数组
         const m = []
+        //遍历skuList 并将spesc push 到m 数组中
         skuList.forEach(sku =>{
             m.push(sku.specs)
         })
         return new Matrix(m)
     }
 
-    //转置矩阵 1.使用函数库 mathjs 问题:体积大 2.
+    //转置矩阵 1.使用函数库 mathjs 问题:体积大 2.借助矩阵思维
 }
 
 export {
