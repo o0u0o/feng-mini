@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/models/Cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/models/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence-group.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/matrix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -54,18 +53,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -136,7 +123,12 @@
       <workItem from="1588345723608" duration="3000" />
       <workItem from="1588850673655" duration="4400000" />
       <workItem from="1588901939943" duration="377000" />
-      <workItem from="1588946099663" duration="1997000" />
+      <workItem from="1588946099663" duration="2018000" />
+      <workItem from="1589122602862" duration="20000" />
+      <workItem from="1589122649054" duration="150000" />
+      <workItem from="1589122956038" duration="278000" />
+      <workItem from="1592642512905" duration="1906000" />
+      <workItem from="1597628561535" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="新增热门推荐">
       <created>1577370479517</created>
@@ -201,24 +193,30 @@
       <option name="project" value="LOCAL" />
       <updated>1588851764149</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":apple: 遍历SKU fence">
+      <created>1588956105150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588956105150</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -231,17 +229,18 @@
     <option name="LAST_COMMIT_MESSAGE" value=":apple: 遍历SKU fence" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588310141620">
+    <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589122680871">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1586523643872" />
-    <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1588310141620" />
-    <state x="386" y="71" key="CommitChangelistDialog2" timestamp="1588851764018">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1589122680871" />
+    <state x="386" y="69" key="CommitChangelistDialog2" timestamp="1588956105001">
+      <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587368914295" />
     <state x="331" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1586529905058" />
     <state x="386" y="71" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1588851764018" />
+    <state x="386" y="69" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588956105001" />
     <state x="386" y="49" key="CommitChangelistDialog2/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587994209824" />
     <state x="386" y="49" key="CommitChangelistDialog2/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1587997592699" />
     <state x="768" y="176" key="EditFileWatcherDialog" timestamp="1586528307200">

@@ -5,7 +5,7 @@
     </view>
 
     <!--  SKU规则栅栏  -->
-    <block wx:for="{{}}">
+    <block wx:for="{{fences}}" wx:key="{{index}}">
         <s-fence></s-fence>
     </block>
     <!-- 数量选择器  -->

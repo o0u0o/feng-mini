@@ -8,6 +8,7 @@ import {Fence} from "./fence";
 class FenceGroup {
     spu
     skuList = []
+    fences = []
 
     constructor(spu) {
         this.spu = spu
@@ -29,6 +30,7 @@ class FenceGroup {
             //将fence push 到 fences中
             fences.push(fence)
         })
+        this.fences = fences
         console.log(fences)
     }
 
