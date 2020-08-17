@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c363b53-ea16-45ce-a0c5-cd2fef2144fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/cell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/models/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/models/fence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +124,7 @@
       <workItem from="1589122956038" duration="278000" />
       <workItem from="1592642512905" duration="1906000" />
       <workItem from="1597628561535" duration="72000" />
+      <workItem from="1597629693096" duration="194000" />
     </task>
     <task id="LOCAL-00001" summary="新增热门推荐">
       <created>1577370479517</created>
@@ -200,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588956105150</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=":apple: 遍历SKU fence">
+      <created>1597629733209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597629733209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,39 +235,18 @@
     <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589122680871">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1586523643872" />
     <state x="476" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1589122680871" />
-    <state x="386" y="69" key="CommitChangelistDialog2" timestamp="1588956105001">
-      <screen x="0" y="23" width="1680" height="975" />
-    </state>
-    <state x="331" y="42" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587368914295" />
-    <state x="331" y="53" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1586529905058" />
-    <state x="386" y="71" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1588851764018" />
-    <state x="386" y="69" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588956105001" />
-    <state x="386" y="49" key="CommitChangelistDialog2/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1587994209824" />
-    <state x="386" y="49" key="CommitChangelistDialog2/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1587997592699" />
-    <state x="768" y="176" key="EditFileWatcherDialog" timestamp="1586528307200">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="768" y="176" key="EditFileWatcherDialog/0.23.1440.825@0.23.1440.825" timestamp="1586528307200" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1588141323244">
+    <state x="424" y="97" key="CommitChangelistDialog2" timestamp="1597629732893">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1588141323244" />
-    <state x="158" y="32" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586530151706" />
-    <state x="373" y="240" key="Vcs.Push.Dialog.v2" timestamp="1588851758884">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580810299453" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1586529930148" />
-    <state x="373" y="240" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1588851758884" />
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587997586189">
+    <state x="424" y="97" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1597629732893" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1597629712112">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1587997586189" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1586346484648">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597629712111" />
+    <state x="631" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597629721803">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1586346484648" />
+    <state x="631" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597629721803" />
   </component>
 </project>
